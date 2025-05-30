@@ -47,6 +47,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/huytrangia2110/NHUWHU
   end
   })
 
+AddButton(Tab1o, {
+     Name = "VOLCANO V3 HUB",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/indexeduu/BF-NewVer/refs/heads/main/V3New.lua"))(setting)
+  end
+  })
   AddButton(Tab2o, {
     Name = "Ok",
    Callback = function()
