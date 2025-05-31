@@ -58,6 +58,18 @@ AddButton(Tab1o, {
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/indexeduu/BF-NewVer/refs/heads/main/V3New.lua"))(setting)
   end
   })
+
+AddButton(Tab1o, {
+     Name = "BANANA V3 HUB",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiriku2013/BananaCatHub/refs/heads/main/BananaCatHub.lua"))(setting)
+  end
+  })
   AddButton(Tab2o, {
     Name = "Ok",
    Callback = function()
